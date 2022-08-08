@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>PPDB</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  background-color: #F7EDE2;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #F7EDE2;
+  color: #84A59D;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #84A59D;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 133%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=password] {
+  width: 133%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #84A59D;
+  color: white;
+  width: 35%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #627F78;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 18px;
+}
+
+.column {
+  background-color: #F7EDE2;
+  color: #84A59D;
+  float: left;
+  width: 40%;
+  padding: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.footer {
+  background-color: #84A59D;
+  color: #F7EDE2;
+  padding: 5px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>PPDB Online | SMK Telkom Malang</h1>
+</div>
+
+<div class="topnav">
+  <a href="Daftar.html">Daftar</a>
+  <a style="background-color: #F7EDE2; color: #F28482;">Masuk</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="container">
+        <h2 style="color: #627F78;">Login Pendaftar</h2>
+        <p>
+            Silahkan masukan alamat email dan kata sandi anda
+        </p>
+        <form action="Thank You.html">
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="E-Mail">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-75">
+              <input type="password" id="password" name="password" placeholder="Kata Sandi">
+            </div>
+        </div>
+        
+        <br>
+        <div class="row">
+          <input type="submit" value="Login">
+        </div>
+        </form>
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© copyright : XI RPL 2 - Raiandhra Cyostra</p>
+</div>
+
+</body>
+
+</html>
